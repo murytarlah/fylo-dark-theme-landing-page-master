@@ -118,3 +118,50 @@ main{
 }
 
 
+/*      about stylings      */
+
+.about_fylo{
+    padding: 100px 0px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_illustrator{
+    width: 50%;
+}
+
+.about_illustrator img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about_textcontent{
+    width: 45%;
+    text-align: left;
+}
+
+.about_textcontent p{
+    font-size: 1.1em;
+    line-height: 2em;
+    margin-bottom: 25px;
+}
+
+.about_textcontent .about_link{
+    color: hsl(176, 68%, 64%);
+    display: flex;
+    width: 27%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0px;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+.about_link a{
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+}
+
+
