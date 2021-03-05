@@ -1,0 +1,104 @@
+/* @media only screen and (max-width: 1440px) and (min-width: 1150){
+
+    .hero_image img{
+        width: 70%;    
+    }
+} */
+
+
+@media (max-width: 475px){
+    *{
+        font-size: 12px;
+    }
+    header{
+        text-align: center;
+        background: url(../img/bg-curvy-mobile.svg) no-repeat   bottom center;
+        background-size: 100%;
+    }
+    .company_logo{
+        width: 40%;
+        text-align: left;
+    }
+    
+    .company_logo img{
+        width: 50%;
+    }
+
+    .hero_image{
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .hero_image img{
+        width: 90%; 
+        margin: 0 auto;   
+    }
+    
+    ul {
+        width: 60%;
+    }
+
+    .offers{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .offers > *{
+        flex-basis: 100%; 
+        height: 250px;
+    }
+
+    .about_fylo{
+        padding: 0px 0px;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .about_fylo > *{
+        width: 100%;
+    }
+
+    .about_illustrator{
+        margin: 20px auto;
+    }
+
+    .about_textcontent .about_link{
+        width: 50%;
+    }
+
+    .testimonies > .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonies .content > *{
+        background: hsl(219, 30%, 18%);
+        padding: 20px 50px;
+        margin: 20px auto;
+        width: 95%;
+    }
+
+    .newsletter{
+        width: 90%;
+        padding: 30px 50px;
+        margin: 0px auto;
+    }
+
+    form{
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    form input, form a{
+        height: 40px;
+        width: 100%;
+        margin: 10px auto;
+    }
+}
