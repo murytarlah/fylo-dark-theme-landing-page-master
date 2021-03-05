@@ -165,3 +165,63 @@ main{
 }
 
 
+/*      Testimonies Stylings         */
+
+.testimonies{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+.testimonies > .content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonies .content > *{
+    background: hsl(219, 30%, 18%);
+    padding: 40px 40px 20px 40px;
+    width: 30%;
+}
+
+.testimonies .content p{
+    line-height: 2em;
+}
+
+.author{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 25px 25px;
+    grid-template-columns:  50px auto;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.author{
+    margin: 20px 0px 0px 0px;
+}
+
+.author_image{
+    width: 10   0%;
+    grid-row: 1/3
+}
+
+.author_image img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.author_detail{
+    grid-row: 1/3;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.author_detail h6{
+    font-size: 0.6em;
+    margin: 10px 0;
+}
+
+
