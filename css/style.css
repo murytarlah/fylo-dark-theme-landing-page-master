@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 14px;
+}
+
+h1{
+    font-size: 2.5em;    
+    line-height: 1.5em;
+    padding: 10px 0px;
+}
+
+h3{
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+body{
+    background-color: hsl(219, 30%, 18%);
+    scroll-behavior: smooth;
+}
+
+header{
+    text-align: center;
+    background: url(../img/bg-curvy-desktop.svg) no-repeat   bottom center;
+    background-size: 100%;
+}
+
+header nav{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.company_logo{
+    width: 20%;
+}
+
+.company_logo img{
+    width: 60%;
+}
+
+ul {
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero_image{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.hero_image img{
+    width: 65%;    
+}
+
+.content .text_content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content .text_content h3{
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.content .text_content  button{
+    border:none;
+    background: linear-gradient(135deg, hsl(176, 68%, 64%) , hsl(198, 60%, 50%));
+    margin: 15px auto;
+    padding: 20px 80px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+
