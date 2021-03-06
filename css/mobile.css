@@ -88,7 +88,7 @@
     }
 
     .testimonies{
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
 
@@ -99,7 +99,7 @@
     .testimonies .content > *{
         background: hsl(219, 30%, 18%);
         padding: 20px 20px;
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 30px 0px;
         width: 100%;
     }
 
