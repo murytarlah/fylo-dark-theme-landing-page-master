@@ -76,7 +76,7 @@ ul {
     line-height: 1.6em;
 }
 
-.content .text_content  button{
+.content .text_content a button{
     border:none;
     background: linear-gradient(135deg, hsl(176, 68%, 64%) , hsl(198, 60%, 50%));
     margin: 15px auto;
@@ -228,10 +228,12 @@ main{
 /*      newsletter styles        */
 
 .newsletter{
+    position: relative;
+    z-index: 1;
     width: 60%;
     padding: 50px 50px;
     background-color: hsl(217, 28%, 15%);
-    margin: 100px auto;
+    margin: 100px auto -200px auto;
     text-align: center;
     border-radius: 10px;
     box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.2);
@@ -272,4 +274,142 @@ form a *{
     padding: 10px auto;
     width: auto;
     width: 100%;
+}
+
+
+
+/*      Footer Stylings      */
+
+footer{
+    background: hsl(216, 53%, 9%);
+    margin: 0px auto;
+}
+
+footer > div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    padding: 250px 0px 100px 0px;
+}
+
+footer div > .company_logo{
+    width: 100%;
+    margin: 10px auto;
+}
+
+footer div .company_logo img{
+    width: 12%
+}
+
+footer div .content{
+    display: flex;
+    width: 105%;
+    justify-content: space-between;
+}
+
+footer div .content .contact{
+    margin: 20px 0px;
+    width: 55%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+footer div .content .contact .location{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+
+}
+
+footer div .content .contact .location .location_content{
+    width: 85%;
+}
+
+footer div .content .contact .location .location-icon{
+    width: 10%;
+}
+
+footer div .content .contact .location .location-icon .iconify{
+    width: 70%;
+    height: auto;
+}
+
+footer div .content .contact .contact-info{
+    width: 35%; 
+}
+
+footer div .content .contact .contact-info > *{
+    display: flex;
+    height: 30%;
+    justify-content: space-between;
+    margin: 5px auto;
+}
+
+footer div .content .contact .contact-info > .phone-number p, footer div .content .contact .contact-info > .email p{
+    width: 85%;
+}
+
+footer div .content .contact .contact-info > .phone-number .icon, footer div .content .contact .contact-info > .email .icon{
+    width: 10%;
+}
+
+footer div .content .contact .contact-info > .phone-number .icon .iconify, footer div .content .contact .contact-info > .email .icon.contact .contact-info > .phone-number .icon .iconify, footer div .content .contact .contact-info > .email .icon .iconify{
+    width: 70%;
+    height:inherit;
+}
+
+footer div .content .sc-links{
+    margin: 20px 0px;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer div .content .sc-links .links{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+footer div .content .sc-links .links ul{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer div .content .sc-links .links ul a{
+    text-decoration: none;
+}
+
+footer div .content .sc-links .links ul a li{
+    margin: 5px 0;
+}
+
+footer div .content .sc-links .sc-icons{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+footer div .content .sc-links .sc-icons > *{
+    width: 50%;
+}
+
+footer div .content .sc-links .sc-icons div .iconify{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%; 
+}
+
+.iconify{
+    width: 50%;
+    height: auto;
 }
