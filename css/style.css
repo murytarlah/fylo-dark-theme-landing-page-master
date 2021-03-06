@@ -16,8 +16,8 @@ h1{
 }
 
 h3{
-    font-size: 1.3em;
-    padding: 10px;
+    font-size: 1.2em;
+    padding: 10px 0px;
 }
 
 body{
@@ -121,7 +121,7 @@ main{
 /*      about stylings      */
 
 .about_fylo{
-    padding: 100px 0px;
+    padding: 80px 0px;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -146,14 +146,14 @@ main{
 .about_textcontent p{
     font-size: 1.1em;
     line-height: 2em;
+    width: 85%;
     margin-bottom: 25px;
 }
 
 .about_textcontent .about_link{
     color: hsl(176, 68%, 64%);
     display: flex;
-    width: 27%;
-    justify-content: space-between;
+    width: fit-content;
     align-items: center;
     padding: 3px 0px;
     border-bottom: 1px solid hsl(176, 68%, 64%);
@@ -164,18 +164,31 @@ main{
     color: hsl(176, 68%, 64%);
 }
 
+.about_link img{
+    margin-left:  10px;
+}
+
 
 /*      Testimonies Stylings         */
 
 .testimonies{
     width: 80%;
     margin: 0 auto;
-    padding: 100px 0px;
+    padding: 100px 0px 50px 0px;
 }
 
 .testimonies > .content{
     display: flex;
     justify-content: space-around;
+}
+
+.quotebg{
+    width: 10%;
+}
+
+.quotebg img{
+    width: 50%;
+    height: auto;
 }
 
 .testimonies .content > *{
@@ -309,7 +322,7 @@ footer div .content{
 }
 
 footer div .content .contact{
-    margin: 20px 0px;
+    margin: 20px 0px 0px 0px;
     width: 55%;
     height: 50%;
     display: flex;

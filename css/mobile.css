@@ -8,9 +8,17 @@
 
 @media (max-width: 475px){
     *{
-        font-size: 13px;
+        font-size: 12px;
         line-height: 1.3em;
     }
+    h1{
+        font-size: 2em;    
+    }
+
+    h3{
+        font-size: 1.25em;
+    }
+
     header{
         text-align: center;
         background: url(../img/bg-curvy-mobile.svg) no-repeat   bottom center;
@@ -26,13 +34,17 @@
     }
 
     .hero_image{
-        width: 90%;
+        width: 95%;
         margin: 20px auto;
     }
 
     .hero_image img{
         width: 90%; 
         margin: 0 auto;   
+    }
+
+    .content .text_content{
+        width: 95%;
     }
     
     ul {
@@ -51,7 +63,7 @@
 
     .about_fylo{
         padding: 0px 0px;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -67,8 +79,17 @@
         margin: 20px auto;
     }
 
+    .about_textcontent p{
+        width: 100%;
+    }
+
     .about_textcontent .about_link{
-        width: 50%;
+        width: fit-content;
+    }
+
+    .testimonies{
+        width: 90%;
+        margin: 0 auto;
     }
 
     .testimonies > .content{
@@ -78,13 +99,13 @@
     .testimonies .content > *{
         background: hsl(219, 30%, 18%);
         padding: 20px 20px;
-        margin: 20px auto;
-        width: 95%;
+        margin: 0px 0px 20px 0px;
+        width: 100%;
     }
 
     .newsletter{
         width: 90%;
-        padding: 30px 50px;
+        padding: 30px 15px;
         margin: 0px auto;
     }
 
@@ -118,6 +139,11 @@
 
     footer div .content{
         flex-wrap: wrap;
+    }
+    
+    footer div .content .sc-links{
+        margin: 0 auto;
+        padding: 0px;
     }
 
     footer div .content .sc-links .links{
